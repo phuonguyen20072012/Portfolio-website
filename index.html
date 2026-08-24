@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio - Phan Tran Phuong Uyen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700;800&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header: menu image with 3 clickable hotspots -->
+  <header class="site-header" role="banner">
+    <div class="menu-wrap">
+      <img src="image/menu.png" alt="menu" class="menu-img">
+      <img src="image/logo.png" alt="logo" class="menu-logo">
+
+      <!-- Hotspots placed over the menu.png - positions in CSS -->
+      <button class="menu-hotspot left" data-target="about" aria-label="About"></button>
+      <button class="menu-hotspot center" data-target="work" aria-label="Work"></button>
+      <button class="menu-hotspot right" data-target="contact" aria-label="Contact"></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about" class="page page-about" aria-labelledby="about-title">
+      <div class="decor-layer">
+        <!-- use many images from image/ as decorative stickers -->
+        <img src="image/sticker1.png" class="deco d1" alt="">
+        <img src="image/sticker2.png" class="deco d2" alt="">
+        <img src="image/title.png" class="deco d3" alt="">
+        <img src="image/saolon.png" class="deco d4" alt="">
+        <img src="image/mattroi.png" class="deco d5" alt="">
+        <img src="image/hoa.png" class="deco d6" alt="">
+        <img src="image/tem.png" class="deco d7" alt="">
+      </div>
+
+      <div class="content">
+        <img src="image/mypic.png" alt="Phuong Uyen" class="portrait">
+        <article class="card about-card">
+          <h1 id="about-title">ABOUT ME</h1>
+          <p><strong>Hi! My full name is Phan Tran Phuong Uyen, and I am 18 years old.</strong></p>
+          <p>I am currently a Digital Media student at RMIT University, living and studying in Ho Chi Minh City, Vietnam.</p>
+        </article>
+
+        <!-- software stickers -->
+        <div class="stickers">
+          <img src="image/ai.png" alt="AI" class="sticker sw ai">
+          <img src="image/ps.png" alt="PS" class="sticker sw ps">
+          <img src="image/ae.png" alt="AE" class="sticker sw ae">
+          <img src="image/svc.png" alt="svc" class="sticker sw svc">
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="page page-work" aria-labelledby="work-title">
+      <div class="decor-layer">
+        <img src="image/nuoc.png" class="deco w1" alt="">
+        <img src="image/saotren.png" class="deco w2" alt="">
+        <img src="image/saoduoi.png" class="deco w3" alt="">
+        <img src="image/note.png" class="deco w4" alt="">
+        <img src="image/keps.png" class="deco w5" alt="">
+      </div>
+
+      <h2 id="work-title" class="title">WORK</h2>
+      <div class="work-cards">
+        <div class="card project">Web<br>based<br>Poetry</div>
+        <div class="card project">Video<br>Self<br>Portrait</div>
+        <div class="card project">Icon<br>Design</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="page page-contact" aria-labelledby="contact-title">
+      <div class="decor-layer">
+        <img src="image/khunglong.png" class="deco c1" alt="">
+        <img src="image/so1.png" class="deco c2" alt="">
+        <img src="image/khunglongnho.png" class="deco c3" alt="">
+        <img src="image/keps.png" class="deco c4" alt="">
+      </div>
+
+      <h2 id="contact-title" class="title large">CONTACT</h2>
+      <div class="contact-box">
+        <a href="#" class="social"><img src="image/facebook.svg" alt="facebook"></a>
+        <a href="#" class="social"><img src="image/ig.svg" alt="instagram"></a>
+        <a href="#" class="social"><img src="image/letter.svg" alt="email"></a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
